@@ -1,6 +1,6 @@
 # IKEv2 VPN Server on Docker
 
-Recipe to build [`libardoram/ikev2-vpn-server`](https://registry.hub.docker.com/u/libardoram/ikev2-vpn-server/) Docker image.
+Recipe to build [`libardoram/ikev2-vpn-server`](https://hub.docker.com/r/libardoram/docker-ikev2-vpn-server/) Docker image.
 
 Taken from build [`gaomd/ikev2-vpn-server`](https://registry.hub.docker.com/u/gaomd/ikev2-vpn-server/) Docker image.
 
