@@ -31,7 +31,7 @@
 : ${IPID=$(echo -n ${HOST} | cut -d . -f 4)}
 : ${PROFILE_IDENTIFIER=$(echo -n "${HOST}." | tac -s. | sed 's/\.$//g')}
 : ${PROFILE_UUID=$(hostname)}
-: ${PROFILE_NAME="Best VPN - ${IPID}"}
+: ${PROFILE_NAME="Best VPN"}
 
 # These variable, especially CONN_UUID, are bind to per username,
 # which currently, all users share the same secrets and configurations.
@@ -101,7 +101,7 @@ cat <<EOF
                     https://github.com/iphoting/ovpnmcgen.rb
                     -->
                     <key>OnDemandEnabled</key>
-                    <integer>1</integer>
+                    <integer>0</integer>
                     <key>OnDemandRules</key>
                     <array>
                         <dict>
