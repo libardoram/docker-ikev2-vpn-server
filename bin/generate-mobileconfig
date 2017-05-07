@@ -101,7 +101,7 @@ cat <<EOF
                     https://github.com/iphoting/ovpnmcgen.rb
                     -->
                     <key>OnDemandEnabled</key>
-                    <integer>0</integer>
+                    <integer>1</integer>
                     <key>OnDemandRules</key>
                     <array>
                         <dict>
