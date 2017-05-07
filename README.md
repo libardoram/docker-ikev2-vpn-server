@@ -11,6 +11,7 @@ Taken from build [`gaomd/ikev2-vpn-server`](https://registry.hub.docker.com/u/ga
     docker run -d --name ikev2-vpn-server --restart=always --privileged -p 500:500/udp -p 4500:4500/udp libardoram/docker-ikev2-vpn-server:latest
 
 ### 2. Generate the .mobileconfig (for iOS / OS X)
+This command creates the config file isung the external IP address of the container. If the container need to run on local network, please use the build from gaom.
 
     docker run -i -t --rm --volumes-from ikev2-vpn-server libardoram/docker-ikev2-vpn-server:latest generate-mobileconfig > ikev2-vpn.mobileconfig
 
