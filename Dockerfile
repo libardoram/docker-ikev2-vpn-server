@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:oracular-20240811.1
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade \
